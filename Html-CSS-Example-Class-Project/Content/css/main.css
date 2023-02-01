@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#banner {
+    border-radius: 0px 0px 30px 30px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    background: rgba(10, 10, 10, .65);
+    box-shadow: 0 8px 32px rgb(2, 4, 24);
+    border-right: 2px solid rgba(255, 255, 255 .09);
+}
+input#search{
+    border-radius: 20px;
+}
+hr {
+    color: antiquewhite;
+}
+
+label {
+    margin-left: 10px;
+    margin-top: 15px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.btn {
+    background-color: rgba(17, 18, 17, 0.5);
+    color: antiquewhite;
+}
+
+.wh {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a.wh:hover {
+    color: bisque;
+    opacity: 1;
+    transition: .4s;
+    
+
+}
+
+a.wh {
+    font-weight: 100;
+    font-size: large;
+}
+
+.info {
+    z-index: 1;
+    border-color: transparent;
+    background: linear-gradient(90deg,
+            black,
+            #0b1414,
+            #182327,
+            #221727,
+            #312727,
+            black);
+    background-size: 400%;
+    box-shadow: 0 0 5px rgb(2, 4, 24);
+    font-size: 10px;
+    width: auto;
+    border-radius: 10px;
+    animation: glow 12s linear forwards;
+    text-align: center;
+    margin: auto;
+}
+
+
+@keyframes glow {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 400%;
+    }
+
+}
+.encoksatilan{
+    margin-left: 200px;
+   
+}
+.dispnone {
+    display: none;
+    font-size: 20px;
+}
+
+.photo {
+    width: 222px;
+    height: 270px;
+    transition: .4s;
+    margin-left: 150px;
+    color: aquamarine;
+
+}
+
+.photo:hover {
+    cursor: pointer;
+    width: 60px;
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.photo:hover .dispnone {
+    display: flex;
+}
+
+div.header {
+    font-style: italic;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+div.ctgr {
+    background: rgba(10, 10, 10, .65);
+    width: 280px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 2px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    background: rgba(10, 10, 10, .65);
+    box-shadow: 0 8px 32px rgb(2, 4, 24);
+    border-right: 2px solid rgba(255, 255, 255 .09);
+
+}
+
+.menu {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 18px;
+}
+
+.menu:hover {
+    font-size: 20px;
+}
+
+.bodyinfo{
+    opacity: 1;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px 1px;
+    padding: 10px;
+}
+
+.ctone {
+    background-image: url("../images/the_book_of_secrets_by_shaynart-wallpaper-1920x1080.jpg");
+    width: 100em;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b1414;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -80px;
+    border-radius: 50px;
+    opacity: 1;
+    transition: .4s;
+}
+.encoksatilanhr{
+    width: 785px;
+}
+
+span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.encokul{
+    border-radius: 10px;
+    width: 800px;
+    padding:10px ;
+    transition: 0.4s;
+    list-style: none;
+}
+.encokul:hover{
+    transform: scale(1.01);
+}
+a.deconone{
+    text-decoration: none;
+    color: white;
+}
+input#search{
+   padding: 30px;
+   padding: 9px 12px 9px 34px;
+}
+i.searc{
+    position: absolute;
+    font-size: 20px;
+    transform: translateX(9px) translateY(14px);
+}
+.wid{
+    margin:auto;
+    width: 500px;
+}
